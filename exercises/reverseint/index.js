@@ -15,9 +15,9 @@ function reverseInt(n) {
   .reverse()
   .join("")
 
-  return parseInt(reversed).Math.sign(n)
-
+  return parseInt(reversed) * Math.sign(n)
   
-
+  
+  
 }
 module.exports = reverseInt;
